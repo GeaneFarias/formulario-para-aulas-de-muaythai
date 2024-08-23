@@ -5,7 +5,7 @@ body, h1, form, input, textarea, button {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Roboto", sans-serif;
     background:url(https://img.freepik.com/fotos-gratis/lutadores-de-boxe-tailandes-de-muay-thai_654080-775.jpg?t=st=1724376731~exp=1724380331~hmac=11e261686c9669e5cd8fa153441ff3e82dc2b95b7e7ff9baeb81fe7135df348d&w=900);
     background-size: cover;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 .container {
     background: #7bd68f ;
-    background-color: rgba(144, 208, 132, 0.392);
+    background-color: rgba(144, 208, 132, 0.698);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,14 +26,18 @@ body {
 h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #040303;
+    font-weight: bold;
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
+form label {
+    font-weight: bold;
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
+}
+
+input{
+    margin-bottom: 10px
 }
 .btn {
     background-color: #3f6b49;
