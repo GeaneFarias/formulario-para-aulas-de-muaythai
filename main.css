@@ -1,0 +1,52 @@
+body, h1, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(https://img.freepik.com/fotos-gratis/lutadores-de-boxe-tailandes-de-muay-thai_654080-775.jpg?t=st=1724376731~exp=1724380331~hmac=11e261686c9669e5cd8fa153441ff3e82dc2b95b7e7ff9baeb81fe7135df348d&w=900);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: #7bd68f ;
+    background-color: rgba(144, 208, 132, 0.392);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+.btn {
+    background-color: #3f6b49;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1c4625;
+}
+
